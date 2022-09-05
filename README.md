@@ -1,4 +1,2 @@
 # Softuni-Homework
-This is my repository for homeworks and project who I make in Softuni.
-
-Test
+This is my repository for homeworks and projects which I make in Softuni.
