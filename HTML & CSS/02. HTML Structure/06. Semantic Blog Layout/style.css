@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(189, 220, 240);
+}
+
+header{
+    background-color: rgb(221, 238, 248);
+
+}
+
+.navgation-bar{
+    text-decoration: none;
+}
+
+.nav{
+    text-decoration: none;
+}
+
+.html-articles{
+    display: inline-flex;
+    width: 70%;
+    margin-left: 50px;
+}
+
+.first-html-article {
+    background-color: aqua;
+}
