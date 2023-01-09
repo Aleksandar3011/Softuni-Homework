@@ -1,26 +1,92 @@
 body{
     background-color: rgb(189, 220, 240);
+    width: 70%;
 }
 
 header{
-    background-color: rgb(221, 238, 248);
+    background-color: rgba(221, 238, 248, 0.89);
+    width: 73%;
+}
 
+li{
+    margin-left: 14px;
+    font-size: 19px;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+.header{
+    display: flex;
 }
 
 .navgation-bar{
-    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    margin-top: 34px;
+    
 }
 
 .nav{
     text-decoration: none;
+    margin-left: 13px;
 }
 
 .html-articles{
     display: inline-flex;
     width: 70%;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .first-html-article {
-    background-color: aqua;
+    background-color: rgb(221, 238, 248);
+    margin-left: 10px;
+}
+
+#second-html-article{
+    background-color: rgb(221, 238, 248);
+    margin-left: 20px;
+}
+
+.fha{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sht{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.js-articles{
+    display: inline-flex;
+    width: 70%;
+    margin-left: 10px;
+}
+
+.first-js-article {
+    background-color: rgb(221, 238, 248);
+    margin-left: 10px;
+    width: 122%;
+}
+
+#second-js-article{
+    background-color: rgb(221, 238, 248);
+    margin-left: 20px;
+}
+
+.fja{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sja{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+    background-color: rgba(221, 238, 248, 0.89);
+    width: 73%;
 }
