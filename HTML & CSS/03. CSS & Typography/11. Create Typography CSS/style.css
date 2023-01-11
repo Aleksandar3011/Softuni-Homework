@@ -1,0 +1,78 @@
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+
+hr{
+    color: antiquewhite;
+}
+
+.mainUlList > li{
+    list-style: square;
+}
+
+.firstNestedUl > li{
+    list-style: disc;
+}
+
+.secondNestedUl > li{
+    list-style: circle;
+}
+
+.threeParagraph p{
+    margin-top: 26px;
+    margin-bottom: 40px;
+}
+
+.article h2{
+    margin-top: 26px;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+}
+
+table, tr, td{
+    border: 1px solid rgb(199, 197, 197);
+    margin: 0;
+    padding: 0;
+    
+}
+
+table th, td{
+    margin-left: 10px;
+}
+
+.groups th{
+    background-color: rgba(189, 188, 188, 0.658);
+}
+
+.lineWithBackground{
+    background-color: rgb(223, 219, 219);
+}
+
+.vl{
+    border-left: 4px solid gray;
+    height: 190px;
+}
+
+.vl p{
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    font-style: italic;
+}
+
+.vl p.koko{
+    text-align: right;
+}
+

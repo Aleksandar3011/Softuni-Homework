@@ -1,0 +1,34 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.check{
+    list-style: none;
+}
+
+.check li i{
+    color: #2fcc71;
+    font-size: 25px;
+}
+
+.star{
+    list-style: none;
+}
+
+.star li i{
+    color: coral;
+    font-size: 25px;
+}
+
+.contact{
+    list-style: none;
+}
+
+.contact li i{
+    color: #3498ba;
+    font-size: 25px;
+}
