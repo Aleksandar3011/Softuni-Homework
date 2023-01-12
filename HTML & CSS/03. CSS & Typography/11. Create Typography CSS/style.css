@@ -40,13 +40,24 @@ table{
     text-align: left;
 }
 
+<<<<<<< HEAD
 table, tr, td{ 
+=======
+table, tr, td{
+>>>>>>> ae98fcd4fa413a97164bc68b68dbe7fb4a14c53a
     border: 1px solid rgb(199, 197, 197);
     margin: 0;
     padding: 0;
     
 }
 
+<<<<<<< HEAD
+=======
+table th, td{
+    margin-left: 10px;
+}
+
+>>>>>>> ae98fcd4fa413a97164bc68b68dbe7fb4a14c53a
 .groups th{
     background-color: rgba(189, 188, 188, 0.658);
 }
