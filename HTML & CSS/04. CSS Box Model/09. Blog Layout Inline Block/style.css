@@ -1,0 +1,63 @@
+html{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    padding: 20px 30px;
+}
+
+article{
+    width: 55%;
+    display: inline-block;
+}
+
+img{
+    max-width: 82%;
+}
+
+/* MAIN CSS */
+.mainContent__title{
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainContent__ul{
+    margin: 30px auto;
+    line-height: 23px;
+    list-style: square;
+}
+
+.mainContent__image{
+    margin: 15px auto;
+}
+
+/* HEADER CSS */
+.header__title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header__latestPosts{
+    width: 22%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 25px;
+}
+
+
+.header__latestPosts h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header__latestPostsLinks{
+    text-indent: 20px;
+    list-style: square;
+}
+
+.links{
+    color: blue;
+}
+
+/* FOOTER */
+.footer{
+    margin-top: 30px;
+    line-height: 30px;
+}
