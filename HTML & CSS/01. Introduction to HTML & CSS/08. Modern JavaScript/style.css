@@ -1,0 +1,16 @@
+#wrapper{
+    background-color: #5bc0de;
+    width: 65%
+}
+
+hr{
+    color: aliceblue;
+}
+
+footer{
+    margin-top: 16px;
+}
+
+.upp{
+    display: inline;
+}
