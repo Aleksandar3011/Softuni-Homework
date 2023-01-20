@@ -1,0 +1,99 @@
+/* 
+body{
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 10px;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+aside .nav .nav__ul{
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+.nav__ul li a{
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+} */
+
+body{
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 10px;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+header,
+aside,
+main,
+footer{
+    border-radius: 3px;
+}
+
+header h1{
+    padding: 5px 10px;
+}
+
+aside .nav .nav__ul{
+    padding: 0px 14px;
+    list-style: none;
+}
+
+.nav__ul li{
+    padding-top: 8px;
+}
+
+.nav__ul li a{
+    text-decoration: none;
+    color: rgb(86, 40, 129);;
+}
+
+.main h1{
+    padding: 8px 16px;
+}
+.main__ul{
+    padding-left: 58px;
+    padding-bottom: 18px;
+}
+
+footer div{
+    padding: 8px 12px;
+}
+
+
+header{
+    background: rgb(181, 216, 255);
+    grid-area: header;
+}
+
+aside{
+    background: rgb(181, 216, 255);
+    grid-area: aside;
+}
+
+.main{
+    background: rgb(181, 216, 255);
+    grid-area: main;
+}
+
+footer{
+    background: rgb(181, 216, 255);
+    grid-area: footer;
+}
+
