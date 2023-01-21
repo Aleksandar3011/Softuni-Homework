@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+.card-layout{
+    display: grid;
+    margin: 15px 20px;
+    grid-template-columns: repeat(3, 220px);
+    gap: 10px;
+    /* grid-template-rows: repeat(11, 140px);
+    gap: 10px;
+
+    grid-template-areas: 
+    "first" "fourt" "third"
+    "first" "fourt" "third"
+    "second" "fourt" "third"
+    "second" "first" "third"
+    "second" "first" "third"
+    "second" "second" "fourt"
+    "third" "second" "fourt"
+    "third" "second" "fourt"
+    "third" "second" "."
+    "third" "." "."
+    "third" "." "." */
+}
+
+.card-layout article{
+    border: 1px solid lightgrey;
+    /* max-width: 250px; */
+}
+
+.card-layout article img{
+    width: 100%;
+}
+
+.card-layout article section{
+    padding: 8px 12px;
+}
+
+.card-layout article.first hr{
+    margin-top: 237px;
+}
+
+.card-layout article.first footer{
+    padding: 8px 12px;
+}
+
